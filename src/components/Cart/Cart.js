@@ -43,7 +43,6 @@ const Cart = (props) => {
             >
               Close
             </button>
-            {/* {!isEmpty && <button className={classes.button}>Order</button>} */}
             <button className={classes.button}>Order</button>
           </div>
         </React.Fragment>
@@ -55,7 +54,7 @@ const Cart = (props) => {
 const EmptyCart = () => {
   return (
     <div className={classes.emptyCart}>
-      <h1 style={{ fontSize: 1001 + "px" }}>&#128542;</h1>
+      <h1 style={{ fontSize: 100 + "px" }}>&#128542;</h1>
       <h2>Your Cart is empty! </h2>
       <h3>Why don't add something!</h3>
     </div>
